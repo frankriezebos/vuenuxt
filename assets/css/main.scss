@@ -1,0 +1,68 @@
+@import "colors";
+
+body {
+    font-family: "Roboto", sans-serif;
+    padding-top: 65px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: $primary;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: all 600ms ease-in-out;
+}
+
+.page-enter {
+    opacity: 0;
+    transform: translateX(-100%) scaleX(0);
+}
+
+.page-leave-to {
+    opacity: 0;
+    transform: translateX(100%) scaleX(0);
+}
+
+h1 {
+    font-weight: bold;
+}
+
+section {
+    &:nth-child(even) {
+        background-color: rgb(245, 245, 245);
+        margin: 80px 0;
+    }
+}
+
+.row {
+    row-gap: 30px;
+}
+
+.card {
+    height: 100%;
+
+    .card-body {
+        &:last-of-type {
+            align-items: flex-end;
+            display: flex;
+        }
+    }
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.hamburger-icon {
+    width: 21px;
+    
+    path {
+        fill: white;
+    }
+}

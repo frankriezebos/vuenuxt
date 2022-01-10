@@ -1,0 +1,29 @@
+{
+  "Cards": {
+    "description": "Auto imported from components/Cards.vue"
+  },
+  "CarouselBs5": {
+    "description": "Auto imported from components/Carousel-bs5.vue"
+  },
+  "Carousel": {
+    "description": "Auto imported from components/Carousel.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Hero": {
+    "description": "Auto imported from components/Hero.vue"
+  },
+  "Intro": {
+    "description": "Auto imported from components/Intro.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Sidebar": {
+    "description": "Auto imported from components/Sidebar.vue"
+  }
+}
