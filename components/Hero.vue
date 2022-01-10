@@ -77,7 +77,7 @@ export default {
     },
     mounted() {
         axios
-        .post('https://vue-nuxt.preview.themindoffice.nl/home', {
+        .post('https://vue-nuxt.preview.themindoffice.nl/data', {
             limit: 5
         })
         .then(response => (
