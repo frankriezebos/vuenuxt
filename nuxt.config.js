@@ -9,6 +9,8 @@ export default {
       }
   },
 
+  // publicPath: '/_nuxt/',
+
 
   // target: 'static',
   // ssr: false,
