@@ -9,9 +9,9 @@ export default {
       }
   },
 
-  publicPath: '/vuenuxt/dist/_nuxt/',
-  target: 'static',
-  ssr: false,
+  // publicPath: '/',
+  // target: 'static',
+  // ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -74,5 +74,5 @@ export default {
  
        // ....
     }
-}
+  },
 }
