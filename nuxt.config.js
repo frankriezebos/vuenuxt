@@ -9,8 +9,8 @@ export default {
       }
   },
 
-  // publicPath: '/',
-  // target: 'static',
+  // publicPath: '/dist/',
+  target: 'static',
   // ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
