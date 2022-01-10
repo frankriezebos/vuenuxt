@@ -1,0 +1,25 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/cards.js": "components/cards.js",
+    "components/carousel-bs5.js": "components/carousel-bs5.js",
+    "components/carousel.js": "components/carousel.js",
+    "components/footer.js": "components/footer.js",
+    "components/hero.js": "components/hero.js",
+    "components/intro.js": "components/intro.js",
+    "pages/about.js": "pages/about.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/cards.js": "components/cards.js.map",
+    "components/carousel-bs5.js": "components/carousel-bs5.js.map",
+    "components/carousel.js": "components/carousel.js.map",
+    "components/footer.js": "components/footer.js.map",
+    "components/hero.js": "components/hero.js.map",
+    "components/intro.js": "components/intro.js.map",
+    "pages/about.js": "pages/about.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
