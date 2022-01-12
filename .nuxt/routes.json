@@ -3,14 +3,12 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/frankriezebos/Documents/GitHub/vuenuxt/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_26b2404f"
+    "chunkName": "pages/about"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/frankriezebos/Documents/GitHub/vuenuxt/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_466a1b14"
+    "chunkName": "pages/index"
   }
 ]
