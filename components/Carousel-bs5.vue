@@ -21,7 +21,7 @@
 
                         <div class="carousel-inner">
                             <div class="carousel-item" v-for="(item, index) in items" :key="index" :class="{ 'active': index === 0 }">
-                                <img v-bind:src="item.image" class="d-block w-100" v-bind:alt="item.imageAlt" />
+                                <img v-bind:src="item.image" class="d-block w-100" v-bind:alt="item.imageAlt" width="1920" height="500" />
                             </div>
                         </div>
 
@@ -58,17 +58,17 @@ export default {
             items: [
                 { 
                     title: 'Slide 1',
-                    image: 'https://source.unsplash.com/800x600/?coding',
+                    image: 'https://vue-nuxt.preview.themindoffice.nl/files/Screenshot-2022-01-06-at-09_25_57.webp',
                     imageAlt: 'Hallo?'
                 },
                 { 
                     title: 'Slide 2',
-                    image: 'https://source.unsplash.com/800x600/?girl',
+                    image: 'https://vue-nuxt.preview.themindoffice.nl/files/Screenshot-2022-01-06-at-09_25_57.webp',
                     imageAlt: 'Hey there!?'
                 },
                 { 
                     title: 'Slide 3',
-                    image: 'https://source.unsplash.com/800x600/?sun',
+                    image: 'https://vue-nuxt.preview.themindoffice.nl/files/Screenshot-2022-01-06-at-09_25_57.webp',
                     imageAlt: 'Gimme sun?'
                 },
             ]

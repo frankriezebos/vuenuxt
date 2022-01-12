@@ -6,7 +6,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 header-image-wrap">
-                    <img v-for="test in testing" v-bind:src="test.image" :key="test.id" v-bind:alt="headerImageAlt" class="header-image" />
+                    <img v-for="test in testing" v-bind:src="test.image" :key="test.id" v-bind:alt="headerImageAlt" class="header-image" width="600" height="600" />
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@ export default {
         return { 
             headerTitle: 'Vue & Nuxt & Iris is cool',
             headerText: 'Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.',
-            headerImage: 'https://source.unsplash.com/800x600/?snow',
+            headerImage: 'https://vue-nuxt.preview.themindoffice.nl/files/Screenshot-2022-01-06-at-09_25_57.webp',
             headerImageAlt: 'Alt tekst',
             testing: null,
             test: null

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12 col-md-4" v-for="(test, index) in testing" :key="index">
                     <div class="card">
-                        <img v-bind:src="test.image" v-bind:alt="test.name" class="card-img-top">
+                        <img v-bind:src="test.image" v-bind:alt="test.name" class="card-img-top" width="300" height="300">
                         <div class="card-body">
                             <h5 class="card-title">{{ test.name }}</h5>
                             <p class="card-text">{{ test.designation }}</p>
@@ -36,7 +36,7 @@ export default {
                 { 
                     title: 'Dimar is cool',
                     description: 'Lorem ipsum dolor amet',
-                    image: 'https://source.unsplash.com/800x600/?coding',
+                    image: 'https://vue-nuxt.preview.themindoffice.nl/files/Screenshot-2022-01-06-at-09_25_57.webp',
                     imageAlt: 'Alt tekst',
                     features: [
                         { 
@@ -53,7 +53,7 @@ export default {
                 { 
                     title: 'Martijn is cool',
                     description: 'Lorem ipsum dolor amet',
-                    image: 'https://source.unsplash.com/800x600/?coding',
+                    image: 'https://vue-nuxt.preview.themindoffice.nl/files/Screenshot-2022-01-06-at-09_25_57.webp',
                     imageAlt: 'Alt tekst',
                     
                 }

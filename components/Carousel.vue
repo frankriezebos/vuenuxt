@@ -36,7 +36,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="https://picsum.photos/1024/480/?image=55"
+            src="https://vue-nuxt.preview.themindoffice.nl/files/Screenshot-2022-01-06-at-09_25_57.webp"
             alt="image slot"
           >
         </template>
