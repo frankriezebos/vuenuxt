@@ -11,7 +11,7 @@ export default {
 
   // publicPath: '/dist/',
   target: 'static',
-  // ssr: false,
+  ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -31,11 +31,7 @@ export default {
           rel: "icon",
           type: "image/x-icon",
           href: "/favicon.ico",
-      },
-      {
-          rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css?family=Roboto&display=swap",
-      },
+      }
     ]
   },
 
@@ -67,12 +63,11 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extend (config, { isDev, isClient }) {
- 
        config.node = {
             fs: 'empty'
         }
- 
-       // ....
-    }
+    },
+
+    cssSourceMap: true
   },
 }
